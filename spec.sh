@@ -1,11 +1,10 @@
-mkdir t
-mkdir spec
+mkdir -p t
+mkdir -p spec
 sudo mount -t iso9660 -o ro,exec,loop cpu2017-1_0_5.iso ./t
 cd t
 sh install.sh -f -d ../spec
-sudo umount t
 cd ..
+sudo umount t
 rm -rf t
 cp ../resources/default.cfg ./spec/config
 cp ../resources/runspec.sh ./spec
-
