@@ -24,7 +24,7 @@ sh download.sh
 cd ..
 source setenv.sh
 cp Defines1.mk Defines.mk
-make -j
+make
 cd tests
 ./run.sh
 cd ..

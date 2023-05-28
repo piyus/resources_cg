@@ -16,7 +16,7 @@ cd Phoenix-2.0_cg/input
 sh download.sh
 cd ..
 source setenv.sh
-make -j
+make
 cd tests
 ./run.sh
 cd ..
