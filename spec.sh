@@ -7,5 +7,6 @@ cd ..
 sudo umount t
 rm -rf t
 cp ../../resources/runspec.sh ./spec
+cd spec
 chmod +x runspec.sh
 ./runspec.sh
