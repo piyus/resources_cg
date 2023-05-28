@@ -6,6 +6,6 @@ sh install.sh -f -d ../spec
 cd ..
 sudo umount t
 rm -rf t
-cp ../resources/runspec.sh ./spec
+cp ../../resources/runspec.sh ./spec
 chmod +x runspec.sh
 ./runspec.sh
